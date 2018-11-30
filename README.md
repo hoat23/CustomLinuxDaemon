@@ -1,9 +1,9 @@
 # CustomLinuxServer
 Create a start a custom linux server as daemon
 
-# Ejecutable : un server http en python
+# Ejecutar miCodigo.py como servicio
 /usr/bin/python
-$ python -m SimpleHTTPServer 8000
+$ python -m miCodigo.py
 
 # Debian & Ubuntu (sysvinit)
 

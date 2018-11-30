@@ -1,11 +1,11 @@
-# CustomLinuxServer
+# Custom Linux Daemon
 Create a start a custom linux server as daemon: https://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-windows/
 
-# Ejecutar miCodigo.py como servicio
+## Ejecutar miCodigo.py como servicio
 /usr/bin/python
 $ python -m miCodigo.py
 
-# Debian & Ubuntu (sysvinit)
+## Debian & Ubuntu (sysvinit)
 
 wget https://raw.githubusercontent.com/hoat23/CustomLinuxServer/master/debian -O /etc/init.d/example
 
@@ -25,7 +25,7 @@ Iniciar el servicio
 
 service example start
 
-# Ubuntu (upstart)
+## Ubuntu (upstart)
 
 sudo wget https://raw.githubusercontent.com/hoat23/CustomLinuxServer/master/ubuntu -O /etc/init/example.conf
 
@@ -37,7 +37,7 @@ Iniciar el servicio
 
 sudo start example
 
-# CentOS 6 (sysvinit)
+## CentOS 6 (sysvinit)
 
 wget https://raw.githubusercontent.com/hoat23/CustomLinuxServer/master/centos -O /etc/init.d/example
 
@@ -57,7 +57,7 @@ Iniciar el servicio
 
 service example start
 
-# Arch Linux (systemd)
+## Arch Linux (systemd)
 
 wget https://raw.githubusercontent.com/hoat23/CustomLinuxServer/master/arch -O /etc/systemd/system/example.service
 
@@ -77,7 +77,7 @@ iniciar el script
 
 systemctl start example
 
-# Gentoo (runscript)
+## Gentoo (runscript)
 
 wget https://raw.githubusercontent.com/hoat23/CustomLinuxServer/master/gentoo-script -O /etc/init.d/example
 
@@ -95,7 +95,7 @@ Iniciar el daemon
 
 rc-service etherpad-lite start
 
-# Mac OS X (launchd)
+## Mac OS X (launchd)
 
 Crear folder
 
@@ -111,7 +111,7 @@ Ejecutar el demonio
 
 sudo launchctl load /Library/LaunchDaemons/mn.frd.example.plist
 
-# Windows (nssm)
+## Windows (nssm)
 
 Descargar e installar nssm:
 

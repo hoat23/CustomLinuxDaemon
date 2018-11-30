@@ -1,5 +1,5 @@
 # Custom Linux Daemon
-Create a start a custom linux server as daemon: https://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-windows/
+#### Configurar daemon: https://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-windows/
 #### Variables de entorno permanente: https://code.i-harness.com/es/q/df5b9b
 
 ## Ejecutar miCodigo.py como servicio

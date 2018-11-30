@@ -1,5 +1,5 @@
 # CustomLinuxServer
-Create a start a custom linux server as daemon
+Create a start a custom linux server as daemon: https://blog.frd.mn/how-to-set-up-proper-startstop-services-ubuntu-debian-mac-windows/
 
 # Ejecutar miCodigo.py como servicio
 /usr/bin/python

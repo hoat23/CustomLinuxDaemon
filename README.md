@@ -4,9 +4,9 @@
 #### Ejecutar programas en una hora y fecha determinda: https://www.cyberciti.biz/faq/howto-linux-unix-start-restart-cron/
 ## Forma rapida
 
-nohup ./miCodigo.py
+####nohup ./miCodigo.py
 Para ver las todas las tareas nohup que ejecutaron archivos python.
-ps -ef |grep python
+####ps -ef |grep python
 
 ## Ejecutar miCodigo.py como servicio
 /usr/bin/python
